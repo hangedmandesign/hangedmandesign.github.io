@@ -1,0 +1,71 @@
+html, body { 
+height: 100%; 
+width: 100%; 
+}
+
+@font-face {
+	font-family: hng;
+	src: url('img/space_harrier.ttf');
+}
+
+body {
+background:#870000;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+#container2 {
+	background:#870000;
+	margin:0 auto;
+	width:550px;
+	height:400px;
+	position:absolute;
+	top:50%;
+	left:35%;
+	margin-left:-275px;	
+	margin-top:-200px;
+	text-align:left;
+	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#container {
+	background:#870000;
+	margin:0 auto;
+	padding-left:16px;
+	width:550px;
+	height:400px;
+	position:absolute;
+	top:50%;
+	left:65%;
+	margin-left:-275px;	
+	margin-top:-200px;
+	text-align:left;
+	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+#container b {
+	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #FFAAAA;
+}
+
+#container a {
+	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFAAAA;
+}
+
+h1.logo {
+width:360px;
+height:360px;
+background: url('img/iconfilled2.png') no-repeat;
+text-indent: -9999px;
+margin:0px auto 0px auto;
+}

@@ -1,0 +1,45 @@
+html, body { 
+height: 100%; 
+width: 100%; 
+}
+
+@font-face {
+	font-family: hng;
+	src: url('img/space_harrier.ttf');
+}
+
+body {
+	background:#000000;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+#container {
+	margin:0 auto;
+	width:700px;
+	height:620px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-350px;	
+	margin-top:-290px;
+	text-align:center;
+	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#container a {
+	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFAAFF;
+}
+
+h1.lege {
+width:700px;
+height:335px;
+background: url('img/lege.png') no-repeat;
+text-indent: -9999px;
+margin:0px auto 0px auto;
+}
