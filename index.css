@@ -26,7 +26,7 @@ text-align:center;
 	margin-left:-275px;	
 	margin-top:-200px;
 	text-align:left;
-	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-family: Lucida Console, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #FFFFFF;
 }
@@ -43,21 +43,21 @@ text-align:center;
 	margin-left:-275px;	
 	margin-top:-200px;
 	text-align:left;
-	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-family: Lucida Console, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #FFFFFF;
 }
 
 #container b {
-	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-family: Lucida Console, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 16px;
 	color: #FFAAAA;
 }
 
 #container a {
-	font-family: hng, Verdana, Arial, Helvetica, sans-serif;
+	font-family: Lucida Console, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #FFAAAA;
 }
