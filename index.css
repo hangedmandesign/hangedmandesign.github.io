@@ -30,17 +30,21 @@ text-align:center;
 	color: #FFFFFF;
 }
 
-#containerindx b {
+b {
 	font-family: hng, Lucida Console, Helvetica, sans-serif;
 	font-weight: normal;
 	font-size: 16px;
 	color: #FFAAAA;
 }
 
-#containerindx a {
+a {
 	font-family: hng, Lucida Console, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #FFAAAA;
+}
+
+p {
+  	margin: 1em 0 0 0;
 }
 
 h1.logo {
