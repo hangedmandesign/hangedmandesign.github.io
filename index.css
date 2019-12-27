@@ -18,12 +18,12 @@ text-align:center;
 #containerindx {
 	margin:0 auto;
 	width:700px;
-	height:900px;
+	height:700px;
 	position:absolute;
 	top:50%;
 	left:50%;
 	margin-left:-350px;	
-	margin-top:-350px;
+	margin-top:-400px;
 	text-align:center;
 	font-family: hng, Lucida Console, Helvetica, sans-serif;
 	font-size: 16px;
