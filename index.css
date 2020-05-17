@@ -43,11 +43,11 @@ p {
   	margin: 2em 0 0 0;
 }
 
-lt {
+.lt {
   text-align: left;
 }
 
-rt {
+.rt {
   text-align: right;
   color: #FFAAAA;
 }
