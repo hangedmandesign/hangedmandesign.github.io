@@ -31,15 +31,11 @@ text-align:center;
 }
 
 b {
-	font-family: hng, Lucida Console, Helvetica, sans-serif;
 	font-weight: normal;
-	font-size: 16px;
 	color: #FFAAAA;
 }
 
 a {
-	font-family: hng, Lucida Console, Helvetica, sans-serif;
-	font-size: 16px;
 	color: #FFAAAA;
 }
 
@@ -47,12 +43,13 @@ p {
   	margin: 2em 0 0 0;
 }
 
-.lt {
+lt {
   text-align: left;
 }
 
-.rt {
+rt {
   text-align: right;
+  color: #FFAAAA;
 }
 
 h1.logo {
