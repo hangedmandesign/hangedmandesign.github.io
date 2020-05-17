@@ -43,8 +43,7 @@ a {
   text-align: left;
 }
 
-rt {
-font-weight: normal;
+.rt {
   text-align: right;
   color: #FFAAAA;
 }
