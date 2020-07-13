@@ -5,29 +5,16 @@ width: 100%;
 
 @font-face {
 	font-family: hng;
-	src: url('img/space_harrier.ttf');
+	src: url('img/kintosans-medium.ttf');
 }
 
 body {
 background:#870000;
+color: #FFFFFF;
+font-family: hng, Lucida Console, Helvetica, sans-serif;
 margin:0;
 padding:0;
 text-align:center;
-}
-
-#containerindx {
-	margin:0 auto;
-	width:700px;
-	height:700px;
-	position:absolute;
-	top:50%;
-	left:50%;
-	margin-left:-350px;	
-	margin-top:-400px;
-	text-align:center;
-	font-family: hng, Lucida Console, Helvetica, sans-serif;
-	font-size: 16px;
-	color: #FFFFFF;
 }
 
 b {
@@ -40,24 +27,51 @@ a {
 }
 
 p {
-	margin: 2em 0 2em 0;
+	margin: auto;
 }
 
-.lt {
-  text-align: left;
-margin: 1em 0 0 0;
+.header {
+  text-align: center;
+  color: white;
+  margin: 60px;
 }
 
-.rt {
-  text-align: right;
-  color: #FFAAAA;
-margin: 0.4em 0 0 0;
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: center;
 }
 
-h1.logo {
-width:360px;
-height:360px;
-background: url('img/iconfilled2.png') no-repeat;
-text-indent: -9999px;
-margin:0px auto 0px auto;
+.box {
+  box-sizing: border-box;
+  position:relative;
+  width:100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 5px;
+  height: 350px;
+}
+
+.content {
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  background-color: DodgerBlue;
+  border: 1px solid #fff;
+}
+
+@media (min-width: 700px){
+.box {
+  box-sizing: border-box;
+  position:relative;
+  width:50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 5px;
+  height: 350px;
+}
 }
