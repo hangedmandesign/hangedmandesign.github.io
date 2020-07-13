@@ -27,7 +27,7 @@ a {
 }
 
 p {
-	margin: auto;
+	margin: 0 2em 0 2em;
 }
 
 .header {
@@ -53,14 +53,6 @@ p {
   max-width: 100%;
   padding: 0 5px;
   height: 350px;
-}
-
-.content {
-  text-align: center;
-  width: 350px;
-  height: 350px;
-  background-color: DodgerBlue;
-  border: 1px solid #fff;
 }
 
 @media (min-width: 700px){
